@@ -59,4 +59,13 @@ O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, vis
 - **PhpMyAdmin**
 - **PHP**
 - **CSS**
+- **HTML**
 
+# Conatato e agradecimento
+
+Agradecemos a todos os desenvolvedores e colaboradores que estão apoiam o desenvolvimento deste projeto. Suas sugestões e contribuições são extremamente valiosas para a evolução contínua da aplicação.
+
+Se você tiver dúvidas ou sugestões, entre em contato conosco:
+
+
+ 
