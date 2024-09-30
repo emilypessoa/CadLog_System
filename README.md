@@ -18,7 +18,7 @@ O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, vis
 
 ## Funcionalidades
 
-![imagem](img/cadastro.png)
+### Como o login e o cadastro está estilizado
 ![imagem2](img/login.png)
 
 
