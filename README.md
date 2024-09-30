@@ -29,8 +29,13 @@ O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, vis
 
 ### Campos da tela de Login:
 ![imagem2](img/login.png)  
+
+```
+
 <input type="email" name="email" placeholder="Email" required><br>
 <input type="password" name="senha" placeholder="Senha" required><br>
+
+```
 
 ### Campos da tela de Cadastro:
 ![imagem2](img/cadastro.png)
@@ -44,7 +49,7 @@ O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, vis
             <label for="">Senha</label>
             <input type="password" name="senha" id="senha" required>
             <label for="perfil">Perfil:</label>  
-            
+
 ```
 
 ## Tecnologias utilizadas
