@@ -34,13 +34,18 @@ O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, vis
 
 ### Campos da tela de Cadastro:
 ![imagem2](img/cadastro.png)
-           <label for="nome">Nome</label>
+
+```
+
+            <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" required>
             <label for="nome">Email</label>
             <input type="email" name="email" id="email" required>
             <label for="">Senha</label>
             <input type="password" name="senha" id="senha" required>
-            <label for="perfil">Perfil:</label>
+            <label for="perfil">Perfil:</label>  
+            
+```
 
 ## Tecnologias utilizadas
 
@@ -49,4 +54,4 @@ O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, vis
 - **PhpMyAdmin**
 - **PHP**
 - **CSS**
-- ****
+
