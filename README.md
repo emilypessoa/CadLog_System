@@ -18,13 +18,35 @@ O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, vis
 
 ## Funcionalidades
 
-### Como o login e o cadastro está estilizado
-![imagem2](img/login.png)
-
-
 - **Login de Usuário**: Permite que usuários entrem no sistema com email e senha.
 - **Cadastro de Usuário**: Novo cadastro de usuários com atribuição de perfis (Admin, Gestor, Colaborador).
 - **Validação de Formulários**: Verificação de campos obrigatórios e padrões de email e senha.
 - **Estilização Responsiva**: O layout se adapta a diferentes tamanhos de tela, proporcionando uma boa experiência tanto em desktops quanto em dispositivos móveis.
 - **Degradê e Animações CSS**: O fundo das páginas tem um degradê de rosa para roxo pastel, e os botões aumentam de tamanho e mudam de cor ao passar o mouse.
 
+## Telas
+
+
+### Campos da tela de Login:
+![imagem2](img/login.png)  
+<input type="email" name="email" placeholder="Email" required><br>
+<input type="password" name="senha" placeholder="Senha" required><br>
+
+### Campos da tela de Cadastro:
+![imagem2](img/cadastro.png)
+           <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="nome">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="">Senha</label>
+            <input type="password" name="senha" id="senha" required>
+            <label for="perfil">Perfil:</label>
+
+## Tecnologias utilizadas
+
+- **GitHub**
+- **Xampp**
+- **PhpMyAdmin**
+- **PHP**
+- **CSS**
+- ****
