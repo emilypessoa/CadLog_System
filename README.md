@@ -10,12 +10,6 @@ O **CadLog_System** é um sistema de cadastro e login de usuários, que possui t
 
 O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, visando uma interface responsiva, com um design moderno e cores suaves.
 
-## Tecnologias Utilizadas
-
-- **CSS3**: Para estilização, com uso de degradês, animações e fontes amigáveis.
-- **PHP**: Para o back-end, realizando a lógica de autenticação, cadastro e gestão de usuários.
-- **MySQL**: Para armazenar os dados dos usuários.
-
 ## Funcionalidades
 
 - **Login de Usuário**: Permite que usuários entrem no sistema com email e senha.
