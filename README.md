@@ -8,17 +8,19 @@ O **CadLog_System** é um sistema de cadastro e login de usuários, que possui t
 2. **Gestor**: Tem acesso intermediário, gerenciando parte dos dados e equipes.
 3. **Colaborador**: Possui acesso limitado, podendo visualizar e interagir com partes específicas da aplicação.
 
-O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, visando uma interface amigável e intuitiva, com um design moderno e cores suaves.
+O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, visando uma interface responsiva, com um design moderno e cores suaves.
 
 ## Tecnologias Utilizadas
 
-- **HTML5**: Para estruturar as páginas da aplicação.
 - **CSS3**: Para estilização, com uso de degradês, animações e fontes amigáveis.
-- **JavaScript (futuro)**: Para validações de formulário e interatividade do frontend.
-- **PHP (futuro)**: Para o back-end, realizando a lógica de autenticação, cadastro e gestão de usuários.
-- **MySQL (futuro)**: Para armazenar os dados dos usuários.
+- **PHP**: Para o back-end, realizando a lógica de autenticação, cadastro e gestão de usuários.
+- **MySQL**: Para armazenar os dados dos usuários.
 
 ## Funcionalidades
+
+![imagem](img/cadastro.png)
+![imagem2](img/login.png)
+
 
 - **Login de Usuário**: Permite que usuários entrem no sistema com email e senha.
 - **Cadastro de Usuário**: Novo cadastro de usuários com atribuição de perfis (Admin, Gestor, Colaborador).
