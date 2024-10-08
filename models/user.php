@@ -17,16 +17,14 @@ class User
         $conn = Database::getConnection();
         $stmt = $conn->prepare("SELECT * FROM usuarios WHERE id = :id");
         $stmt->execute(['id' => $id]);
-        return $stmt->fetch(PDO::FETCH_ASSPO);
+        return $stmt->fetch(PDO::FETCH_ASSOC); // Corrigido PDO::FETCH_ASSPO para PDO::FETCH_ASSOC
     }
 
-    // Funçã para criar um novo usuário no banco de dados
+    // Função para criar um novo usuário no banco de dados
     public static function create($data){
         $conn = Database::getConnection();
-        $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, senha, perfil) VALUES (:nome, :email, :senha, :perfil");
-        $stmt->execute($data);
-
-
+        $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, senha, perfil) VALUES (:nome, :email, :senha, :perfil)");
+        $stmt->execute($data); // Certifique-se de que $data é um array associativo com as chaves correspondentes
     }
 }
 

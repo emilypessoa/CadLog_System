@@ -81,7 +81,7 @@
     <div>
 
         <h2> Cadastro de Usuário</h2>
-        <form action="" method="post">
+        <form action="index.php?action=register" method="post">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" required>
 
@@ -93,7 +93,7 @@
 
             <label for="perfil">Perfil:</label>
             <select name="perfil" id="perfil">
-                <option value="admin">Admion</option>
+                <option value="admin">Admin</option>
                 <option value="gestor">Gestr</option>
                 <option value="colaborador">Colaborador</option>
             </select>
@@ -102,7 +102,7 @@
 
         </form>
 
-        <a href="">Voltar ao Login</a>
+        <a href="index.php?action=login">Voltar ao Login</a>
     </div>
 </body>
 </html>
