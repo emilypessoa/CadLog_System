@@ -79,27 +79,25 @@
 </head>
 <body>
     <div>
-
-        <h2> Cadastro de Usuário</h2>
+        <h2>Cadastro de Usuário</h2>
         <form action="index.php?action=register" method="post">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" required>
 
-            <label for="nome">Email</label>
+            <label for="email">Email</label>
             <input type="email" name="email" id="email" required>
 
-            <label for="">Senha</label>
+            <label for="senha">Senha</label>
             <input type="password" name="senha" id="senha" required>
 
             <label for="perfil">Perfil:</label>
             <select name="perfil" id="perfil">
                 <option value="admin">Admin</option>
-                <option value="gestor">Gestr</option>
+                <option value="gestor">Gestor</option>
                 <option value="colaborador">Colaborador</option>
             </select>
 
             <button type="submit">Cadastrar</button>
-
         </form>
 
         <a href="index.php?action=login">Voltar ao Login</a>
