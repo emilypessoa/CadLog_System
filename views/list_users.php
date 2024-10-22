@@ -1,3 +1,9 @@
+<?php
+    session_start();
+
+    if(isset($_SESSION['perfil'])):
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
  
@@ -48,3 +54,7 @@
 </body>
  
 </html>
+
+<?php else: ?>
+    <p>Erro: Você não tem permissão para visualizar essa página</p>
+<?php endif; ?>
