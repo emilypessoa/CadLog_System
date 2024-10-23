@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-O **CadLog_System** é um sistema de cadastro e login de usuários, que possui três perfis distintos de acesso:
+O **CadLog_System** Este projeto é um sistema de gerenciamento de usuários com autenticação e diferentes perfis de acesso (Admin, Gestor, Colaborador). O sistema permite o cadastro de usuários, login, visualização de uma dashboard personalizada para cada perfil e a gestão de usuários conforme as permissões do perfil.
 
 1. **Admin**: Tem acesso total ao sistema, podendo gerenciar usuários e configurações.
 2. **Gestor**: Tem acesso intermediário, gerenciando parte dos dados e equipes.
@@ -10,13 +10,34 @@ O **CadLog_System** é um sistema de cadastro e login de usuários, que possui t
 
 O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, visando uma interface responsiva, com um design moderno e cores suaves.
 
+## Estrutura do Projeto
+
+- **AuthController.php**: Controla o processo de login e logout.
+- **DashboardController.php**: Gerencia o acesso à dashboard, permitindo o acesso apenas para usuários autenticados.
+- **UserController.php**: Controla o cadastro e a listagem de usuários.
+- **database.php**: Implementa a conexão com o banco de dados usando o padrão Singleton.
+- **user.php**: Model que contém as funções de manipulação de dados dos usuários no banco de dados.
+- **Views (Front-end)**:
+  - `login.php`: Página de login.
+  - `register.php`: Página de cadastro de usuários.
+  - `dashboard.php`: Página da dashboard, personalizada conforme o perfil do usuário.
+  - `list_users.php`: Página que lista todos os usuários, com ações permitidas conforme o perfil.
+  - `edit_user.php`: Página para edição de dados de um usuário.
+
 ## Funcionalidades
 
-- **Login de Usuário**: Permite que usuários entrem no sistema com email e senha.
-- **Cadastro de Usuário**: Novo cadastro de usuários com atribuição de perfis (Admin, Gestor, Colaborador).
-- **Validação de Formulários**: Verificação de campos obrigatórios e padrões de email e senha.
-- **Estilização Responsiva**: O layout se adapta a diferentes tamanhos de tela, proporcionando uma boa experiência tanto em desktops quanto em dispositivos móveis.
-- **Degradê e Animações CSS**: O fundo das páginas tem um degradê de rosa para roxo pastel, e os botões aumentam de tamanho e mudam de cor ao passar o mouse.
+- **Login**: `/index.php?action=login`
+  - Exibe a tela de login.
+- **Logout**: `/index.php?action=logout`
+  - Encerra a sessão do usuário e redireciona para a tela de login.
+- **Cadastro de Usuário**: `/index.php?action=register`
+  - Exibe a tela de cadastro de novos usuários.
+- **Dashboard**: `/index.php?action=dashboard`
+  - Exibe a dashboard personalizada com base no perfil do usuário.
+- **Listagem de Usuários**: `/index.php?action=list`
+  - Lista todos os usuários do sistema (disponível para Admin e Gestor).
+- **Edição de Usuários**: `/index.php?action=edit&id={user_id}`
+  - Permite editar os dados de um usuário específico (disponível para Admin e Gestor).
 
 ## Telas
 
@@ -45,6 +66,10 @@ O projeto está sendo desenvolvido com foco em usabilidade e acessibilidade, vis
             <label for="perfil">Perfil:</label>  
 
 ```
+
+### Campos da tela de Lista de Usuários
+![imagem3](img/lista%20de%20usuarios.png)
+
 
 ## Tecnologias utilizadas
 
