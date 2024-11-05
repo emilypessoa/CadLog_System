@@ -125,7 +125,7 @@
                     <td><?= $user['perfil'] ?></td>
                     <td>
                         <?php if($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'): ?>
-                            <a href="index.php?edit&id=<?= $user['id'] ?>">Editar</a>
+                            <a href="index.php?action=edit&id=<?= $user['id'] ?>">Editar</a>
                         <?php endif; ?>
 
                         <!-- Insere botão de exclusão apenas para perfil admin -->
