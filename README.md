@@ -4,7 +4,10 @@
 
 O **CadLog_System** Este projeto é um sistema de gerenciamento de usuários com autenticação e diferentes perfis de acesso (Admin, Gestor, Colaborador). O sistema permite o cadastro de usuários, login, visualização de uma dashboard personalizada para cada perfil e a gestão de usuários conforme as permissões do perfil.
 
-1. **Admin**: Tem acesso total ao sistema, podendo gerenciar usuários e configurações.
+1. **Admin**:  Acesso total ao sistema, com permissões para gerenciar usuários e configurações. O administrador pode:
+- Cadastrar usuários;
+- Editar e excluir qualquer usuário do sistema;
+- Configurar parâmetros e permissões de acesso.
 2. **Gestor**: Tem acesso intermediário, gerenciando parte dos dados e equipes.
 3. **Colaborador**: Possui acesso limitado, podendo visualizar e interagir com partes específicas da aplicação.
 
